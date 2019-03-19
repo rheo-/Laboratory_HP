@@ -33,15 +33,15 @@ body {
 	min-height: calc(100vh - 230px);
 }
 @keyframes slide {
-  from { top:0%; }
-  to { top:-100%; }
+  from { top:100%; }
+  to { top:-200%; }
 }
 @-webkit-keyframes slide {
-  from { top:0%; }
-  to { top:-100%; }
+  from { top:100%; }
+  to { top:-200%; }
 }
 
-.text:hover {
+#ticker01:hover {
 -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
     -o-animation-play-state: paused;
@@ -55,15 +55,15 @@ body {
 	padding-right: 30px;
 }
 
-.text {
+#ticker01 {
   position:relative;
   top:0;
   animation-name: slide;
-  animation-duration: 10s;
+  animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   -webkit-animation-name: slide;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 20s;
   -webkit-animation-timing-function:linear;
   -webkit-animation-iteration-count: infinite;
 }
