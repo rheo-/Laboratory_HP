@@ -34,11 +34,11 @@ body {
 }
 @keyframes slide {
   from { top:100%; }
-  to { top:-200%; }
+  to { top:-100%; }
 }
 @-webkit-keyframes slide {
   from { top:100%; }
-  to { top:-200%; }
+  to { top:-100%; }
 }
 
 #ticker01:hover {
